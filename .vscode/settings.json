@@ -1,0 +1,25 @@
+{
+    "cmake.statusbar.advanced": {
+        "debug": {
+            "visibility": "hidden"
+        },
+        "launch": {
+            "visibility": "hidden"
+        },
+        "build": {
+            "visibility": "default"
+        },
+        "buildTarget": {
+            "visibility": "hidden"
+        }
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.buildBeforeRun": true,
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        //"-DPICO_BOARD=pico_w",
+    ],
+    "cortex-debug.openocdPath": "C:/tools/Pico/picoopenocd/openocd/src/openocd.exe",
+
+       
+}
